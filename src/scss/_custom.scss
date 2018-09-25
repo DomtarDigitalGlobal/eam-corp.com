@@ -1927,7 +1927,6 @@ UTILITY CLASSES
 
   /* logos */
   .nav-link {
-    background-color: #f1f1f1;
     width: 100%;
 
     .novathin-logo {
@@ -1935,15 +1934,15 @@ UTILITY CLASSES
       height: 100%;
 
       .a {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .b {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .c {
-        fill: #cbcbcb;
+        fill: #ffffff;
         font-size: 24px;
         font-family: MyriadPro-Bold, Myriad Pro;
         font-weight: 700;
@@ -1955,31 +1954,31 @@ UTILITY CLASSES
       height: 100%;
 
       .a {
-        fill: #cbcbcb;
+        fill: #ffffff;
         font-size: 24px;
         font-family: MyriadPro-Bold, Myriad Pro;
         font-weight: 700;
       }
 
       .b {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .c {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .d,
       .g {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .e {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .f {
-        fill: #cbcbcb;
+        fill: #ffffff;
       }
 
       .g {
@@ -1988,8 +1987,6 @@ UTILITY CLASSES
     }
 
     &.active {
-      background-color: #ffffff;
-
       .novathin-logo {
         width: 100%;
         height: 100%;
@@ -2047,6 +2044,27 @@ UTILITY CLASSES
         }
       }
     }
+
+    &.novathin {
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+      background-color: $brand-green;
+
+      &.active {
+        background-color: #ffffff;
+      }
+
+    }
+
+    &.novazorb {
+      box-shadow: 2px -2px 5px rgba(0, 0, 0, 0.3);
+      background-color: $brand-blue;
+
+      &.active {
+        background-color: #ffffff;
+      }
+
+    }
+
   }
 }
 
