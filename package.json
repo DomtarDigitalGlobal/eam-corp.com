@@ -1,0 +1,29 @@
+{
+  "name": "EAM",
+  "version": "1.0.0",
+  "description": "Engineered Absorbent Materials Website 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Wilmshurst",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.1.0",
+    "browser-sync": "^2.23.6",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-compile-handlebars": "^0.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
