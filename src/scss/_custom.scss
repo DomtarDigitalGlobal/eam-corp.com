@@ -1904,23 +1904,34 @@ UTILITY CLASSES
 
     .nav-link {
       padding: 2rem;
-      border: 1px solid $black;
+      border: 1px solid $comp-grey-2;
     }
   }
 
   .tab-content {
     @extend .col-md-6;
-    background-color: $black;
-    color: #fff;
+    // background-color: $black;
+    // color: #fff;
     padding: 2rem;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    border: 1px solid $comp-grey-2;
 
     a {
       text-transform: uppercase;
       color: $brand-blue-accent;
       font-weight: bold;
+      padding-left: 1.3rem;
 
       @include media-breakpoint-up(lg) {
         font-size: 1.5rem;
+      }
+
+      &.novathin {
+        color: $brand-green;
+      }
+
+      &.novazorb {
+        color: $brand-blue;
       }
     }
   }

@@ -1630,3 +1630,12 @@ $(document).ready(function () {
   }
 
 })(window, document);
+
+// Resolve Mobile double-tap issue
+$(document).ready(function () {
+  $(".horizontal-cta a").on("click touchend", function (e) {
+    var el = $(this);
+    var link = el.attr("href");
+    window.location = link;
+  });
+});
