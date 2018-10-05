@@ -17,6 +17,7 @@ $(document).ready(function () {
     $(window.location.hash + '.collapse').collapse('show')
   }
 });
+
 // Scroll to Anchor //
 function scrollToAnchor(aid) {
   var aTag = $("a[name='" + aid + "']");

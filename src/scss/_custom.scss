@@ -947,10 +947,7 @@ GLOBAL COMPONENTS
   .wrapper {
     position: relative;
     margin-left: 0;
-    margin-right: 0; // @include media-breakpoint-up(md) {
-    //   margin-left: -15px;
-    //   margin-right: -15px;
-    // }
+    margin-right: 0;
     @extend .row;
 
     .image {
@@ -1397,6 +1394,19 @@ UTILITY CLASSES
 }
 
 // Applications
+
+// offset accordian, fixed header
+#feminineCare,
+#adultCare,
+#infantCare,
+#medicalHealthcare,
+#petCare,
+#foodPackaging,
+#industrialApplications {
+  padding-top: 180px;
+  margin-top: -180px;
+}
+
 .card {
   border-radius: 0;
   margin-bottom: 0.625rem;
