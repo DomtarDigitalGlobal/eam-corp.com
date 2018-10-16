@@ -24,28 +24,33 @@
   <!-- End Google Tag Manager -->
   {{#> head-block}} {{!-- Custom
 
-  <head> content per page could be added. --}} {{/head-block}}
+  <head> content per page could be added. --}}
+    {{> includes/meta description="default description" }}
+    {{/head-block}}
   </head>
 
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M629S97" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-    {{#> intro-block}} {{/intro-block}} {{#> nav-block}} {{> includes/nav }} {{/nav-block}} {{#> content-block}} Default content
-    {{/content-block}}
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M629S97" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  {{#> intro-block}} {{/intro-block}} {{#> nav-block}} {{> includes/nav }} {{/nav-block}} {{#> content-block}} Default
+  content
+  {{/content-block}}
 
-    <footer>
-      {{> includes/footer }}
-    </footer>
-    </div> {{!-- end page content div --}}
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-    <script src="/js/main.min.js"></script> {{#> scripts-block}} {{!-- Custom scripts per page can be added. --}} {{/scripts-block}}
+  <footer>
+    {{> includes/footer }}
+  </footer>
+  </div> {{!-- end page content div --}}
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="/js/main.min.js"></script> {{#> scripts-block}} {{!-- Custom scripts per page can be added. --}}
+  {{/scripts-block}}
 
-  </body>
+</body>
 
 </html>
