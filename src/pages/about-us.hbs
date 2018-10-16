@@ -1,4 +1,11 @@
 {{!-- pages/about-us.hbs --}}
+
+{{#*inline "head-block"}}
+
+{{> includes/meta description="EAM has been developing and manufacturing innovative, absorbent core solutions for many of the worlds most successful consumer brands since 1998." }}
+
+{{/inline}}
+
 {{#> layouts/base title="About us" }} {{#*inline "nav-block"}} {{> includes/nav
 nav-class="fixed-top"
 }} {{/inline}} {{#*inline "content-block"}} {{> includes/header-component img-src="/img/about-us-header-min.jpg"
