@@ -1,7 +1,14 @@
-{{!-- pages/industry-resources.hbs --}} {{#> layouts/base title="Industry Resources" }} {{#*inline "nav-block"}} {{> includes/nav
+{{!-- pages/industry-resources.hbs --}} 
+{{#*inline "head-block"}}
+
+{{> includes/meta description="We work with industry experts around the globe. If you’re looking to grow your knowledge of the airlaid industry, we offer a wide range of resources." }}
+
+{{/inline}}
+
+{{#> layouts/base title="Industry Resources" }} {{#*inline "nav-block"}} {{> includes/nav
 nav-class="fixed-top" }} {{/inline}} {{#*inline "content-block"}} {{> includes/header-component page-title="Industry Resources"
 img-src="/img/industry-resources-header-min.jpg" img-src-2x="/img/industry-resources-header@2x-min.jpg" mob-img-src="/img/industry-resources-mobile-header-min.jpg"
-mob-img-src-2x="/img/industry-resources-mobile-header@2x-min.jpg" cta-class="btn-primary" cta="Learn more about EAM" cta-link="/about-us.html"
+mob-img-src-2x="/img/industry-resources-mobile-header@2x-min.jpg" cta-class="btn-primary" cta="Learn more about EAM" cta-link="/about-us.html" alt-tag="Nonwoven Industry and Technology Publications."
 }}
 
 <div class="page-content">

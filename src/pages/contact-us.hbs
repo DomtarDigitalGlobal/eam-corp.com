@@ -1,4 +1,11 @@
-{{!-- pages/contact-us.hbs --}} {{#> layouts/base title="Contact us" }} {{#*inline "nav-block"}} {{> includes/nav
+{{!-- pages/contact-us.hbs --}}
+{{#*inline "head-block"}}
+
+{{> includes/meta description="Contact EAM Corporation today, we look forward to working with you!" }}
+
+{{/inline}}
+
+{{#> layouts/base title="Contact us" }} {{#*inline "nav-block"}} {{> includes/nav
 nav-class="fixed-top"
 }} {{/inline}} {{#*inline "content-block"}}
 <div class="header">

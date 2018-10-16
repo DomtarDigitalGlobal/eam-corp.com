@@ -1,4 +1,11 @@
-{{!-- pages/request-samples.hbs --}} {{#> layouts/base title="Request Samples" }} {{#*inline "nav-block"}} {{>
+{{!-- pages/request-samples.hbs --}}
+{{#*inline "head-block"}}
+
+{{> includes/meta description="Order a sample and learn about the NovaThin and NovaZorb advantage first-hand! Follow the steps and order yours. We think you'll be impressed." }}
+
+{{/inline}}
+
+ {{#> layouts/base title="Request Samples" }} {{#*inline "nav-block"}} {{>
 includes/nav
 nav-class="fixed-top" }} {{/inline}} {{#*inline "content-block"}} {{> includes/header-component page-title="Request
 Samples"
@@ -6,7 +13,7 @@ img-src="/img/request-samples-header-min.jpg" img-src-2x="/img/request-samples-h
 mob-img-src="/img/request-samples-mobile-header-min.jpg"
 mob-img-src-2x="/img/request-samples-mobile-header@2x-min.jpg" cta="Have a question? Contact us here"
 cta-class="btn-primary"
-cta-link="/contact-us.html" }}
+cta-link="/contact-us.html" alt-tag="Order a free product sample." }}
 
 <div class="wrapper grey-fg">
     <div class="container">
