@@ -1,10 +1,16 @@
-{{!-- pages/applications.hbs --}} {{#> layouts/base title="Applications" }} {{#*inline "nav-block"}} {{> includes/nav
+{{!-- pages/applications.hbs --}}
+{{#*inline "head-block"}}
+
+{{> includes/meta description="We strive to create products tailored to the performance needs of your customers, while also addressing your manufacturing and business requirements." }}
+
+{{/inline}}
+ {{#> layouts/base title="Applications" }} {{#*inline "nav-block"}} {{> includes/nav
 nav-class="fixed-top"
 }} {{/inline}} {{#*inline "content-block"}} {{> includes/header-component page-title="Applications"
 img-src="/img/applications-header-min.jpg"
 img-src-2x="/img/applications-header@2x-min.jpg" mob-img-src="/img/applications-mobile-header-min.jpg"
 mob-img-src-2x="/img/applications-mobile-header@2x-min.jpg"
-cta="Request samples" cta-class="btn-primary" cta-link="/request-samples.html" }}
+cta="Request samples" cta-class="btn-primary" cta-link="/request-samples.html" alt-tag="EAM – designer and manufacturer of the most absorbent airlaid cores on the market." }}
 
 <div class="page-content">
   <h2 class="h1">

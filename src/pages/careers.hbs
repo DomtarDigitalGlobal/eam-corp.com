@@ -1,7 +1,13 @@
-{{!-- pages/careers.hbs --}} {{#> layouts/base title="Careers" }} {{#*inline "nav-block"}} {{> includes/nav nav-class="fixed-top"
+{{!-- pages/careers.hbs --}} 
+{{#*inline "head-block"}}
+
+{{> includes/meta description="EAM is owned by Domtar, a leading provider of a fiber-based products with approximately 10,000 employees in the U.S., Canada and Europe." }}
+
+{{/inline}}
+{{#> layouts/base title="Careers" }} {{#*inline "nav-block"}} {{> includes/nav nav-class="fixed-top"
 }} {{/inline}} {{#*inline "content-block"}} {{> includes/header-component page-title="Careers" img-src="/img/careers-header-min.jpg"
 img-src-2x="/img/careers-header@2x-min.jpg" mob-img-src="/img/careers-mobile-header-min.jpg" mob-img-src-2x="/img/careers-mobile-header@2x-min.jpg"
-cta="Have a question? Get in touch" cta-class="btn-primary" cta-link="/contact-us.html" }}
+cta="Have a question? Get in touch" cta-class="btn-primary" cta-link="/contact-us.html" alt-tag="Become Part of the Domtar Family, search jobs and start your career today."}}
 
 <div class="page-content">
     <h1>A global company with a local presence</h1>
